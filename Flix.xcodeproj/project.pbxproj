@@ -16,6 +16,7 @@
 		71DB2D7421F7DF18009CDC11 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB2D7321F7DF18009CDC11 /* MovieDetailsViewController.swift */; };
 		71DB2D7621F7F4C6009CDC11 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB2D7521F7F4C6009CDC11 /* MovieGridViewController.swift */; };
 		71DB2D7821F7F824009CDC11 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB2D7721F7F824009CDC11 /* MovieGridCell.swift */; };
+		71DB2D7A21F93682009CDC11 /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB2D7921F93682009CDC11 /* TrailerViewController.swift */; };
 		FB22BF97CC64F4E61946448A /* Pods_Flix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0431707F6D6E950885391442 /* Pods_Flix.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		71DB2D7321F7DF18009CDC11 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		71DB2D7521F7F4C6009CDC11 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
 		71DB2D7721F7F824009CDC11 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
+		71DB2D7921F93682009CDC11 /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
 		9E2EA2A682AA13E95BBFA365 /* Pods-Flix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flix/Pods-Flix.release.xcconfig"; sourceTree = "<group>"; };
 		FC8C83943F87F40898A40E65 /* Pods-Flix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flix/Pods-Flix.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +82,7 @@
 				714FC91B21E6BBE500080C2A /* AppDelegate.swift */,
 				714FC91D21E6BBE500080C2A /* MovieViewController.swift */,
 				714FC91F21E6BBE500080C2A /* Main.storyboard */,
+				71DB2D7921F93682009CDC11 /* TrailerViewController.swift */,
 				71DB2D7721F7F824009CDC11 /* MovieGridCell.swift */,
 				71DB2D7521F7F4C6009CDC11 /* MovieGridViewController.swift */,
 				71DB2D7321F7DF18009CDC11 /* MovieDetailsViewController.swift */,
@@ -224,6 +227,7 @@
 			files = (
 				71DB2D7621F7F4C6009CDC11 /* MovieGridViewController.swift in Sources */,
 				71DB2D7421F7DF18009CDC11 /* MovieDetailsViewController.swift in Sources */,
+				71DB2D7A21F93682009CDC11 /* TrailerViewController.swift in Sources */,
 				714FC91E21E6BBE500080C2A /* MovieViewController.swift in Sources */,
 				714FC91C21E6BBE500080C2A /* AppDelegate.swift in Sources */,
 				71DB2D7821F7F824009CDC11 /* MovieGridCell.swift in Sources */,
@@ -377,7 +381,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P64BHXUP6C;
 				INFOPLIST_FILE = Flix/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,7 +401,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P64BHXUP6C;
 				INFOPLIST_FILE = Flix/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
